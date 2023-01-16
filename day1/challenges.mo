@@ -23,7 +23,7 @@ actor Day1 {
     };
 
     public func test_divide(n : Nat, m :Nat) : async Bool {
-        return n/m == 0;
+        return n%m == 0;
     };
 
     public func is_even(n : Nat) : async Bool {
