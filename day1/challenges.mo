@@ -1,3 +1,5 @@
+import Float "mo:base/Float"
+
 actor Day1 {
 
     var counter : Nat = 0;
@@ -28,5 +30,9 @@ actor Day1 {
 
     public func is_even(n : Nat) : async Bool {
         return n%2 == 0;
+    };
+
+      public func squareroot(x: Float, y: Float) : async Float {
+    return Float.sqrt(x+y+10.3);
     };
 };
