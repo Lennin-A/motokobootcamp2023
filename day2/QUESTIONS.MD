@@ -1,9 +1,7 @@
 1) The controller of the ledger canister is r7inp-6aaaa-aaaaa-aaabq-cai. Although I'm not sure of the entity behind this canister.
 
 2) The subnet is pae4o-o6dxf-xki7q-ezclx-znyd6-fnk6w-vkv5z-5lfwh-xym2i-otrrw-fqe
- and it contains 16 nodes. Found here https://icscan.io/subnet/pae4o-o6dxf-xki7q-ezclx-znyd6-fnk6w-vkv5z-5lfwh-xym2i-otrrw-fqe
-
- The canister is Motoko Playground! 
+ and it contains 16 nodes. Found here https://icscan.io/subnet/pae4o-o6dxf-xki7q-ezclx-znyd6-fnk6w-vkv5z-5lfwh-xym2i-otrrw-fqe . The canister is Motoko Playground! 
 
  3) expected voting = 1.125 x 1.5 x 10 = 16.875 
 
