@@ -12,7 +12,7 @@ actor day_3 {
 
     var book_list = List.nil<Book>();
 
-    public shared query func add_book(b : Book) : async () {
+    public shared func add_book(b : Book) : async () {
         book_list := List.push<Book>(b, book_list);
         
     };
