@@ -4,6 +4,7 @@ import Char "mo:base/Char";
 import Iter "mo:base/Iter";
 import Nat "mo:base/Nat";
 import Int "mo:base/Int";
+import Buffer "mo:base/Buffer";
 
 actor day_2 {
 
