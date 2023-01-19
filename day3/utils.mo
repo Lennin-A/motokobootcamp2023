@@ -17,7 +17,7 @@ actor util {
     return Array.filter<Nat>(array, f);
     };
 
-    public func drop<T>(xs : [T], n : Nat) : async [T] {
+    func drop<T>(xs : [T], n : Nat) : [T] {
         return Array.tabulate<T>(n, func (i) = xs[i+n] );
     };
 }
